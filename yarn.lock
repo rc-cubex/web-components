@@ -1677,6 +1677,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@r2wc/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@r2wc/core/-/core-1.0.0.tgz#5724bf472769ffe4157528bd10f62b9aada36098"
+  integrity sha512-P/P1YXpCXESnJKxFGXDZFrldov3T5wqeJSgQNWMgTkuV4CA9C+gVwv2guadkB7h5PuFyJxaLLbK6vl2VAUltpA==
+
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -7677,6 +7682,13 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
+
+react-to-webcomponent@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-to-webcomponent/-/react-to-webcomponent-2.0.0.tgz#45be93e3aafa00f032519b2521adff8cd986235f"
+  integrity sha512-/gD0HgmO+yDg1kSfIktq04WlGVglEcun11xNAy8zMnSMtOZ+t6OF0bJVtHlIcT8nGU+XGwycY2t7prOaO+BWXg==
+  dependencies:
+    "@r2wc/core" "^1.0.0"
 
 react@^18.2.0:
   version "18.2.0"
